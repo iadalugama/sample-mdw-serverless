@@ -3,7 +3,10 @@
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "SQL on Demand",
-			"type": "LinkedServiceReference"
+			"type": "LinkedServiceReference",
+			"parameters": {
+				"suffix": "mdw"
+			}
 		},
 		"annotations": [],
 		"type": "AzureSqlTable",
